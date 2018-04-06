@@ -279,8 +279,6 @@ public class QueryServiceImpl implements QueryService {
                     } else if (name.equals ("beizhu")) {
                         result.setRemark (value);
                     } else if (name.equals ("jifang_mingcheng")) { // 2015-09-23
-                        // 增加机房名称
-                        // yangyupeng
                         result.setCopRoomName (value);
                     }
                 }
