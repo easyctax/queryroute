@@ -146,8 +146,11 @@ public class QueryServiceImpl implements QueryService {
                         result.setCirCuitCareCop (value);
                     } else if (name.equals ("kehu_bianma")) { // 2014-09-24
                         // 增加客户编码
-                        // yangyupeng
                         result.setCustCode (value);
+                    }
+                    } else if (name.equals ("jifeileixing")) { 
+                        // 增加客户编码
+                        result.setJifeiLeixing (value);
                     }
                 }
                 alist.add (result);
