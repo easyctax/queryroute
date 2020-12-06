@@ -73,6 +73,8 @@ public class RouteInfo {
 
     private String yewuLeixing;//业务类型， 1为专线2为中继
 
+    private String jifeiLeixing;
+
     public String getRow_index () {
         return row_index;
     }
