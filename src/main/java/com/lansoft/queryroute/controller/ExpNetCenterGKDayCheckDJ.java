@@ -1,4 +1,4 @@
-package dwj;
+package com.lansoft.queryroute.controller;
 
 import java.io.File;
 import java.sql.Connection;
